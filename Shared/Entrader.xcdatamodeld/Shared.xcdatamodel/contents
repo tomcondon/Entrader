@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17510.1" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EquityType" representedClassName="EquityType" syncable="YES" codeGenerationType="class">
+        <attribute name="type" attributeType="String"/>
+    </entity>
+    <entity name="Investor" representedClassName="Investor" syncable="YES" codeGenerationType="class">
+        <attribute name="firstName" attributeType="String"/>
+        <attribute name="lastName" attributeType="String"/>
+    </entity>
+    <entity name="Position" representedClassName="Position" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES"/>
+    </entity>
+    <elements>
+        <element name="EquityType" positionX="-51557.36328125" positionY="-23429.5078125" width="128" height="58"/>
+        <element name="Investor" positionX="-50967.8515625" positionY="-23156.53515625" width="128" height="73"/>
+        <element name="Position" positionX="-50684.0859375" positionY="-23599.95703125" width="128" height="58"/>
+    </elements>
+</model>
